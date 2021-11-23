@@ -1,26 +1,29 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
-
-// Стили для файла с примером HTML-фрагмента
+// BASE and COMPONENTS//
 @import './utils/fonts';
 @import './utils/variables';
 @import './base/base';
+@import './utils/breackpoints';
+@import './utils/mixins';
+@import './components/container';
 @import './components/order-btn';
 @import './components/title';
+@import './utils/visually-hidden';
 
+//HEADER + BURGER-MENU//
 @import './layout/header';
+//HERO//
 @import './layout/hero';
+//OFFERS//
 @import './layout/offers';
-
+//DESCRIPTIONS//
 @import './layout/descriptions';
+//BENEFITS//
 @import './layout/benefits';
-
+//MAP//
 @import './layout/mapUkraine';
-
+//PARTNERS//
 @import './layout/partners';
-
+//FOOTER//
 @import './layout/footer';
 
 // body {
