@@ -15,8 +15,7 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
   margin-bottom: 0;
   margin-top: 0;
   margin-left: 0;
@@ -39,12 +38,19 @@ textarea:focus {
   outline: none;
 }
 
-.list {
+// .List
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
-.link {
+// .Link
+a {
   text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -74,41 +80,14 @@ img {
   height: auto;
 }
 
-.container {
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  @media screen and (min-width: 320px) {
-    min-width: 320px;
-  }
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-  @media screen and (min-width: 1400px) {
-    width: 1200px;
-  }
+// Address
+address {
+  font-style: normal;
 }
 
-section {
-  @media screen and (min-width: 1440px) {
-  }
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
+// Button
+button {
   padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-.padding-bottom {
-  @media screen and (max-width: 1439px) {
-  }
+  border: none;
+  background-color: transparent;
 }
