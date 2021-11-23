@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://codajoker.github.io/Alira-Trans",
+  "homepage": "https://codajoker.github.io/ALIRA-TRANS1",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /Alira-Trans/"
+    "build": "parcel build src/*.html --public-url /ALIRA-TRANS1/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codajoker/Alira-Trans.git"
+    "url": "git+https://github.com/codajoker/ALIRA-TRANS1.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
