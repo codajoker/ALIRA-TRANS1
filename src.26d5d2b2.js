@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../fonts/Montserrat-ExtraBold.woff":[["Montserrat-ExtraBold.60e1dae1.woff","xZ5l"],"xZ5l"],"./../fonts/Montserrat-Bold.woff":[["Montserrat-Bold.d888d90a.woff","P1mB"],"P1mB"],"./../fonts/Montserrat-SemiBold.woff":[["Montserrat-SemiBold.090eca13.woff","RxhP"],"RxhP"],"./../fonts/Montserrat-Medium.woff":[["Montserrat-Medium.3df1e901.woff","oeHA"],"oeHA"],"./../fonts/Montserrat-Regular.woff":[["Montserrat-Regular.28cefc92.woff","t5nJ"],"t5nJ"],"./../fonts/Montserrat-Light.woff":[["Montserrat-Light.359bcf2a.woff","pV4F"],"pV4F"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/Alira-Trans/src.000614ba.js.map
+//# sourceMappingURL=/Alira-Trans/src.26d5d2b2.js.map
