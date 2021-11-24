@@ -1,19 +1,43 @@
 $(document).ready(function () {
   $('.partners__list').slick({
-    autoplay: true,
-    autoplaySpeed: 3000,
-    slidesToShow: 6,
+    arrows: false,
+    autoplay: false,
+
+    infinite: false,
+    adaptiveHeight: true,
+    variableWidth: true,
+    centerMode: false,
 
     responsive: [
       {
         breakpoint: 1400,
         settings: {
+          arrows: true,
+
+          adaptiveHeight: true,
+          centerMode: true,
+          variableWidth: true,
+          infinite: true,
+
+          autoplay: true,
+          autoplaySpeed: 2500,
+
           slidesToShow: 3,
         },
       },
       {
         breakpoint: 640,
         settings: {
+          arrows: true,
+
+          adaptiveHeight: true,
+          centerMode: true,
+          variableWidth: true,
+          infinite: true,
+
+          autoplay: true,
+          autoplaySpeed: 2500,
+
           slidesToShow: 2,
         },
       },
