@@ -1,3 +1,7 @@
+// import * as slickJs from 'slick-carousel/slick/slick.js';
+// import * as slickThemeCss from 'slick-carousel/slick/slick-theme.css';
+// import * as slickCSS from 'slick-carousel/slick/slick.css';
+
 $(document).ready(function () {
   $('.partners__list').slick({
     arrows: false,
