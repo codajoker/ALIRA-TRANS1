@@ -11,6 +11,7 @@
 
 //HEADER + BURGER-MENU//
 @import './layout/header';
+@import './layout/mobile-menu';
 //HERO//
 @import './layout/hero';
 //OFFERS//
@@ -25,7 +26,8 @@
 @import './layout/partners';
 //FOOTER//
 @import './layout/footer';
-
+//BACKDROP
+@import './components/backdrop';
 // body {
 //   background-color: tomato;
 // }

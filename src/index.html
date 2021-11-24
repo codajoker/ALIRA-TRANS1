@@ -24,11 +24,11 @@
     />
     <!-- Add the slick-theme.css if you want default styling -->
     <!-- <link rel="stylesheet" href="./sass/main.scss" /> -->
-
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <include src="./partials/_header.html"></include>
+    <include src="./partials/_mobile-menu.html"></include>
     <main>
       <include src="./partials/main/hero.html"></include>
       <include src="./partials/main/offers.html"></include>
@@ -38,6 +38,7 @@
       <include src="./partials/main/partners.html"></include>
     </main>
     <include src="./partials/_footer.html"></include>
+    <include src="./partials/components/_backdrop.html"></include>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script
