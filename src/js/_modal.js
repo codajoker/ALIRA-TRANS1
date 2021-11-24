@@ -1,14 +1,21 @@
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
-  };
+const refs = {
+  openModalBtn: document.querySelectorAll('[data-modal-open]'),
+  closeModalBtn: document.querySelector('[data-modal-close]'),
+  modal: document.querySelector('[data-modal]'),
+  backdrop: document.querySelector('#backdrop'),
+  mobileMenu: document.querySelector('#mobile-menu'),
+};
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+refs.openModalBtn.forEach(button => button.addEventListener('click', openModal));
+refs.closeModalBtn.addEventListener('click', closeModal);
 
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
-})();
+function openModal() {
+  refs.mobileMenu.classList.remove('mobile-open');
+  refs.backdrop.classList.remove('is-hidden');
+  refs.modal.classList.remove('is-hidden');
+}
+
+function closeModal() {
+  refs.backdrop.classList.add('is-hidden');
+  refs.modal.classList.add('is-hidden');
+}
