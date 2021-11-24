@@ -8,16 +8,32 @@
   <p class="modal__descriptions">
     З вами зв'яжеться наш менеджер і розповість детальніше про умови отримання пропозиції
   </p>
-  <form action="" class="modal-form">
-    <fieldset class="modal-form__fieldset">
+  <form
+    class="modal-form"
+    id="fs-frm"
+    name="simple-contact-form"
+    accept-charset="utf-8"
+    action="https://formspree.io/f/mpzbaqqd"
+    method="post"
+  >
+    <fieldset class="modal-form__fieldset" id="fs-frm-inputs">
       <label class="modal-form__field"
-        ><input type="text" placeholder="Ваше ім'я" class="modal-form__input"
+        ><input
+          type="text"
+          placeholder="Ваше ім'я"
+          name="name"
+          class="modal-form__input"
+          required=""
       /></label>
       <label class="modal-form__field"
-        ><input type="tel" placeholder="Ваше номер телефону" class="modal-form__input"
+        ><input
+          type="tel"
+          placeholder="Ваше номер телефону"
+          class="modal-form__input"
+          name="telephone"
+          required=""
       /></label>
     </fieldset>
-    <include src="./partials/components/order-btn.html"></include>
-    <button class="order-btn modal-form__btn" type="button">Замовити дзвінок</button>
+    <button class="order-btn modal-form__btn" type="submit">Замовити дзвінок</button>
   </form>
 </div>
