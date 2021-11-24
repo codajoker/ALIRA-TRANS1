@@ -2,6 +2,11 @@
   padding-top: 47px;
   padding-bottom: 45px;
   background-color: #0c1523;
+  &__container {
+    @include min-width('large') {
+      display: flex;
+    }
+  }
   &__title {
     margin-bottom: 26px;
     font-style: normal;
@@ -29,6 +34,10 @@
   }
   &__segment--center {
     margin-bottom: 46px;
+    @include min-width('large') {
+      margin-left: 365px;
+      margin-right: 134px;
+    }
   }
   &__logo {
     display: flex;
