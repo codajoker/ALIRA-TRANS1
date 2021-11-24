@@ -5,4 +5,4 @@ $(document).ready(function(){$(".partners__list").slick({autoplay:!0,autoplaySpe
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/_slick");
 },{"./sass/main.scss":"clu1","./js/_slick":"TA0N"}]},{},["Focm"], null)
-//# sourceMappingURL=/ALIRA-TRANS1/src.976baf0b.js.map
+//# sourceMappingURL=/ALIRA-TRANS1/src.70a3a4b6.js.map
