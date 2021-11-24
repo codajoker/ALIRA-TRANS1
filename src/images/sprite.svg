@@ -27,5 +27,10 @@
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M29.824 2l-28.070 28.070-1.754-1.754 28.070-28.070 1.754 1.754z"></path>
 <path fill="#000" style="fill: var(--color2, #000)" opacity="0.5" d="M29.824 2l-28.070 28.070-1.754-1.754 28.070-28.070 1.754 1.754z"></path>
 </symbol>
+<symbol id="icon-burger-button" viewBox="0 0 58 32">
+<path d="M0 0h58.435v4.174h-58.435v-4.174z"></path>
+<path d="M22.261 13.913h36.174v4.174h-36.174v-4.174z"></path>
+<path d="M9.739 27.826h48.696v4.174h-48.696v-4.174z"></path>
+</symbol>
 </defs>
 </svg>
