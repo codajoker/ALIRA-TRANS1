@@ -1,8 +1,7 @@
 .modal {
-  position: relative;
+  position: absolute;
   padding: 37px 6px 38px 6px;
-  padding-top: 37px;
-  padding-bottom: 38px;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
