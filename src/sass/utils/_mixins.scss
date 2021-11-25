@@ -55,11 +55,11 @@
 //     screen and (min-resolution: 2dppx) and (min-width: *width*) {
 //     background-image: url(*image*);
 //   }
-@mixin retina($image, $width) {
+@mixin retina($linear-gradient, $image, $width) {
   @media screen and (min-device-pixel-ratio: 2) and (min-width: map-get($min-widths, $width)),
     screen and (min-resolution: 192dpi) and (min-width: map-get($min-widths, $width)),
     screen and (min-resolution: 2dppx) and (min-width: map-get($min-widths, $width)) {
-    background-image: url($image);
+    background-image: $linear-gradient, url($image);
   }
 }
 
