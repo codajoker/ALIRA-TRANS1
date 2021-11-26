@@ -46,11 +46,27 @@
 }
 .wrapper-offers-img {
   margin-bottom: 15px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 50px;
   @include min-width('medium') {
     margin-bottom: 48px;
+    width: 620px;
+    height: 432px;
   }
   @include min-width('large') {
     margin-bottom: 0px;
+    width: 560px;
+    height: 391px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+  }
+}
+
+.wrapper-offers-img-reverse {
+  @include min-width('large') {
+    margin-right: 0px;
+    margin-left: 40px;
   }
 }
 .offers-item:not(:last-child) {
@@ -72,17 +88,10 @@
   @include min-width('large') {
     width: 560px;
     height: 391px;
-    margin-right: 40px;
   }
 }
 .reverse-side {
   @include min-width('large') {
     flex-direction: row-reverse;
-  }
-}
-.offers-img-reverse {
-  @include min-width('large') {
-    margin-right: 0px;
-    margin-left: 40px;
   }
 }

@@ -1,11 +1,11 @@
 .align-left {
   float: left;
-  margin-right: 20px;
+  // margin-right: 20px;
 }
 
 .align-right {
   float: right;
-  margin-left: 20px;
+  // margin-left: 20px;
 }
 
 .slide-in {
@@ -13,15 +13,15 @@
   transition: all 0.5s;
 }
 
-.align-left.slide-in {
-  transform: translateX(-30%) scale(0.95);
-}
+// .align-left.slide-in {
+//   transform: translateX(-30%) scale(0.95);
+// }
 
-.align-right.slide-in {
-  transform: translateX(30%) scale(0.95);
-}
+// .align-right.slide-in {
+//   transform: translateX(30%) scale(0.95);
+// }
 
 .slide-in.active {
   opacity: 1;
-  transform: translateX(0%) scale(1);
+  // transform: translateX(0%) scale(1);
 }
