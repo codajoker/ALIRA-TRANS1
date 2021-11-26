@@ -69,9 +69,11 @@
   }
 }
 .offers-img {
+  margin-bottom: 50px;
   @include min-width('large') {
     width: 560px;
     height: 391px;
+    margin-bottom: 0px;
     margin-right: 40px;
   }
 }
