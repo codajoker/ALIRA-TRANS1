@@ -13,7 +13,9 @@ const e={burgerBtn:document.querySelector("#burger-btn"),closeBtn:document.query
 $(document).ready(function(){$(".partners__list").slick({arrows:!1,autoplay:!1,infinite:!1,adaptiveHeight:!0,variableWidth:!0,centerMode:!1,responsive:[{breakpoint:1400,settings:{arrows:!0,adaptiveHeight:!0,centerMode:!0,variableWidth:!0,infinite:!0,autoplay:!0,autoplaySpeed:2500,slidesToShow:3}},{breakpoint:640,settings:{arrows:!0,adaptiveHeight:!0,centerMode:!0,variableWidth:!0,infinite:!0,autoplay:!0,autoplaySpeed:2500,slidesToShow:2}}]})});
 },{}],"lEe3":[function(require,module,exports) {
 const e={openModalBtn:document.querySelectorAll("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]"),backdrop:document.querySelector("#backdrop"),mobileMenu:document.querySelector("#mobile-menu")};function o(){e.mobileMenu.classList.remove("mobile-open"),e.backdrop.classList.remove("is-hidden"),e.modal.classList.remove("is-hidden")}function d(){e.backdrop.classList.add("is-hidden"),e.modal.classList.add("is-hidden")}e.openModalBtn.forEach(e=>e.addEventListener("click",o)),e.closeModalBtn.addEventListener("click",d);
+},{}],"XRtd":[function(require,module,exports) {
+function t(t,e=20,o=!0){var i;return function(){var n=this,c=arguments,l=o&&!i;clearTimeout(i),i=setTimeout(function(){i=null,o||t.apply(n,c)},e),l&&t.apply(n,c)}}const e=document.querySelectorAll(".slide-in");function o(){e.forEach(t=>{const e=window.scrollY+window.innerHeight-t.height/2,o=t.offsetTop+t.height,i=e>t.offsetTop,n=window.scrollY<o;i&&n?t.classList.add("active"):t.classList.remove("active")})}window.addEventListener("scroll",t(o));
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./js/_swiper"),require("./sass/main.scss"),require("./js/_mobile-menu"),require("./js/_slick"),require("./js/_modal");
-},{"./js/_swiper":"v2AR","./sass/main.scss":"clu1","./js/_mobile-menu":"LjZb","./js/_slick":"TA0N","./js/_modal":"lEe3"}]},{},["Focm"], null)
-//# sourceMappingURL=/ALIRA-TRANS1/src.8e84b5c2.js.map
+"use strict";require("./js/_swiper"),require("./sass/main.scss"),require("./js/_mobile-menu"),require("./js/_slick"),require("./js/_modal"),require("./js/_offers-slide");
+},{"./js/_swiper":"v2AR","./sass/main.scss":"clu1","./js/_mobile-menu":"LjZb","./js/_slick":"TA0N","./js/_modal":"lEe3","./js/_offers-slide":"XRtd"}]},{},["Focm"], null)
+//# sourceMappingURL=/ALIRA-TRANS1/src.1a82f567.js.map
