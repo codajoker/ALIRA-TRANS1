@@ -1,6 +1,7 @@
 import './js/_swiper';
-import './sass/main.scss';
-import './js/_mobile-menu';
 import './js/_slick';
+import './sass/main.scss';
+import './js/_header';
+import './js/_mobile-menu';
 import './js/_modal';
 import './js/_offers-slide';
