@@ -1,12 +1,12 @@
 .benefits {
-  padding-top: 50px;
-  padding-bottom: 80px;
+  padding-top: 32px;
+  padding-bottom: 24px;
   @include min-width('medium') {
-    padding-bottom: 96px;
+    padding-bottom: 40px;
   }
   @include min-width('large') {
-    padding-top: 78px;
-    padding-bottom: 80px;
+    padding-top: 62px;
+    padding-bottom: 40px;
   }
 }
 
