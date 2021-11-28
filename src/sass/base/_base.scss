@@ -36,6 +36,7 @@ input:focus,
 textarea:active,
 textarea:focus {
   outline: none;
+  box-shadow: 0 0 0 3px #076a89;
 }
 
 // List
