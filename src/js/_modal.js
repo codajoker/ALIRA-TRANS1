@@ -8,6 +8,7 @@ const refs = {
 
 refs.openModalBtn.forEach(button => button.addEventListener('click', openModal));
 refs.closeModalBtn.addEventListener('click', closeModal);
+window.addEventListener('click', onBackdropClick);
 
 function openModal() {
   document.body.classList.add('bg-scrolling-element-when-mobile-open');
@@ -20,4 +21,11 @@ function closeModal() {
   document.body.classList.remove('bg-scrolling-element-when-mobile-open');
   refs.backdrop.classList.add('is-hidden');
   refs.modal.classList.add('is-hidden');
+}
+
+function onBackdropClick(e) {
+  if (e.target.classList.contains('backdrop')) {
+    closeModal();
+    refs.mobileMenu.classList.remove('mobile-open');
+  }
 }
